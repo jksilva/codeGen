@@ -22,3 +22,14 @@ ef0a297 (HEAD -> master) Home layout, and docs about scope
 
 
 git diff mostra a diferença entre o arquivo do ultimo commit e dos unstage area
+
+$ git diff --staged
+
+head --> current stage 
+
+ver a diferenca do atual com dois commits anteriores
+git diff HEAD-2
+
+voltar para uma versao anteriores
+git checkout 
+
