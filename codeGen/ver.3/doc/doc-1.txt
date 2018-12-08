@@ -1,0 +1,59 @@
+<codeGen/> Documentação
+1. doc:escopo{
+    app web, utilizando api e banco de dados não relacional (mongodb), contendo, página home, cadastro, login, painel administrativo, area de trabalho.
+}
+
+2. doc:ferramentas{
+    sera utilizado-> html5,
+        javaScript,
+        nodejs,
+        mongodb,
+        css
+}
+
+3. doc:funcionamento{
+    usuario acessa a pagina inicial,
+    clica em registrar,
+    a pagina de registro deve aparecer,
+    contem os campos {nome completo,email,senha,confirmar senha,contrato de uso,botao para registrar, link para pagina de login}, 
+    os campos devem conter placeholder com exemplos de entrada valida,
+    o campo senha e confirmar senha devem conter o mesmo valor caso contrario um highlight deve ser ativado mostrando ao usuario que há divergencia,
+    o botao registrar deve ficar inativo ate que todas as condições de validação sejam concluidas com sucesso,
+    o botao registrar quando acionado deve em caso de sucesso redirecionar para a pagina area de trabalho,
+    na tela area de trabalho deve conter:{
+        um menu lateral esquerdo separado por tipo de codigos,
+        campo de busca estilo filtro em tempo real,
+        nesse menu os botoes sao arrastaveis,
+        apos arrastar para o palco ele e incluido numa box do projeto,
+        nesse momento internamente o sitema faz uma busca no banco de dados e carrega na memoria a syntaxe desse botao,
+        ao clicar no botao do palco um menu a esqueda deve aparecer para customização do codigo,
+        deve vir preenchido com os valores default
+        ser possivel de colocar ações dentro de outro bloco,
+        lembrar das variaveis dentro do scopo,
+        botoes com syntaxe de funcao quando utilizados mais de uma vez sao carregados apenas uma vez e nao segunda trazendo apenas a chamada da funcao,
+        botao para salvar o projeto,
+        botao para abrir um projeto salvo,
+        botao para gerar o codigo,
+        o codigo sera gerado em outra window e deve conter botoes para copiar,
+        botao para compartilhar,
+        botao para fechar janela,
+        historico que ira marcar todo a historia dentro do programa sendo possivel ir para qualquer ponto,
+        tela home,
+        tela admin,
+        sair(logout)
+    }
+}
+
+4. doc:estrutura{
+    pastas-->
+    app_codeGen -  ira conter todo o projeto
+    css - ira conter todas as folhas css utilizadas no projeto
+    html - ira conter todas as paginas html utilizadas no projeto
+    js - codigos javaScript para as paginas html
+    lib - codigos do back-end em nodejs
+    design - imagens utilizadas 
+    doc - toda docoumetação
+    .data - arquivos temporarios de leitura e escrita.
+    .logs - logs de atividades
+    https - as chaves criptografica
+}

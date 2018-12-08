@@ -1,0 +1,10 @@
+git config --global user.name "Jackson Silva"
+git config --global user.email "silvajkandroid@gmail.com"
+git config --global color.ui "auto"
+
+# mac/linux
+git config --global core.editor "nano -w"
+git config --global core.editor "subl -n -w"
+
+# check settings
+git config --list
