@@ -8,3 +8,17 @@ git config --global core.editor "subl -n -w"
 
 # check settings
 git config --list
+
+git log -> mostra:
+$ git log
+commit ef0a2975a6ad1ccf831e39cf3192d58db3823bf0 (HEAD -> master)
+Author: Jackson Silva <silvajkandroid@gmail.com>
+Date:   Sat Dec 8 16:02:25 2018 -0200
+
+    Home layout, and docs about scope
+
+$ git log --oneline
+ef0a297 (HEAD -> master) Home layout, and docs about scope
+
+
+git diff mostra a diferença entre o arquivo do ultimo commit e dos unstage area
