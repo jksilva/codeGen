@@ -11,7 +11,7 @@
 
     <title>Welcome!</title>
   </head>
-  <body class="body">
+  <body >
     <div class="container "> 
         <!-- NavBar with the menu --> 
         <nav class="navbar fixed-top navbar-dark bg-dark justify-content-end">
@@ -22,17 +22,24 @@
                 </form>
         </nav>
         <!---               HERE HEADER                   -->
-
-        
-        <!-- Message with welcome and a brief about what is codeGen and how start and test --> 
-        <div class="jumbotron">
-            <h1 class="display-4">Welcome to codeGen</h1>
-            <p class="lead">codeGen is a web-app based in RESTful api, JavaScript and nodejs, that offer you a new way to develop, like create a webserver just draging and drop a button, what are you waiting, let try with a free account.</p>
-            <hr class="my-4">
-            <p>Get started creating an free account, its easy and takes a few minutes, we need only a name, a valid email, password and that you read and confirm the terms of use.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Create a free account</a>
-        </div>
-
+        <p></p>
+   
+        <div class="p-5 mb-2  mx-auto bg-light" id="formX">
+        <form >
+               
+                <div class="form-group">
+                  <label for="input-email">Email address</label>
+                  <input type="email" class="form-control" id="input-email"  placeholder="name@example.com">
+                  
+                </div>
+                <div class="form-group">
+                  <label for="input-password">Password</label>
+                  <input type="password" class="form-control" id="input-password" placeholder="Password">
+                </div>
+             
+                <button type="submit" class="btn w-100 btn-primary">Log In</button>
+              </form>
+            </div>
 
         <!---               HERE FOOTER                          -->
 

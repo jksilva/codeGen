@@ -6,3 +6,24 @@
     text-align: center;
   }
 
+.sets{
+    margin-left: 10px;
+}
+.body{
+    text-align: center;
+
+    background-color: #fff;
+
+    margin-top: 8%;
+}
+.bodyR{
+
+    background-color: #fff;
+
+   
+}
+#formX{
+    max-width: 60%;
+    height: 100%;
+    margin-top: 50px;
+}
